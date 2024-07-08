@@ -19,25 +19,25 @@ email: pipiolo1024@gmail.com
 darkmode: true
 
 # Social links
-twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username: Pipi-Olo
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: 문규환
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#orcid_username: 0000-0000-0000-0000
+#googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -61,49 +61,79 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Ahnlab
+        sub_title: Server Developer
+        caption: 2022.10 ~ 현재
+        link: https://www.ahnlab.com/ko
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
+          * Milvus, ZooKeeper & Kafka, 빌드 머신 담당자
+  - title: Technology
+    layout: list
+    content:
+      - layout: left
+        title: Backend
+#        sub_title: Qualifications (eg. BA Performing Arts)
+#        caption: Date Range (eg. 2016 - 2019)
+#        quote: >
+#          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          * Java
+            * Spring Boot, Spring MVC, Spring Data JPA
+            * JPA / Hibernate, Querydsl
+            * Gradle
+          * Scala
+            * Finagle
+            * SBT
+          * Python
+            * Celery, Flower
+      - layout: left
+        title: DevOps
+#        sub_title: Qualifications (eg. BA Performing Arts)
+#        caption: Date Range (eg. 2016 - 2019)
+#        quote: >
+#          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          * HTTP, Apache Thrift
+          * Cassandra, MinIO
+          * ZooKeeper, Kafka, Milvus, Pinot, RabbitMQ
+          * Grafana, Kibana
+          * Kubernetes, Helm, Rancher
+          * Linux Server (CentOS 7, Rocky Linux 8)
+      - layout: left
+        title: Data Engineering
+#        sub_title: Qualifications (eg. BA Performing Arts)
+#        caption: Date Range (eg. 2016 - 2019)
+#        quote: >
+#          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          * (Py) Spark
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
         title: Project name
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
