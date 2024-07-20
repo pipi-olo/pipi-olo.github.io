@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: 문규환
-title: Backend Developer
+title: Server Developer
 email: pipiolo1024@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -60,10 +60,10 @@ content:
       - layout: left
         title: Ahnlab
         sub_title: Server Developer
-        caption: 2022.10 ~ 현재
+        caption: 2022.10 ~ Now
         link: https://www.ahnlab.com
         quote: >
-          Short description of the company (optional)
+          Artificial Intelligence Team
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
           * Milvus, ZooKeeper & Kafka, 빌드 머신 담당자
@@ -142,7 +142,7 @@ content:
           * Java JPA & Spring Data JPA, Querydsl 교육
           * Spring Boot, Spring MVC 등 Spring 교육
       - layout: left
-        title: 중앙대학교 컴퓨터공학부 졸업
+        title: 중앙대학교 컴퓨터공학부
 #        sub_title:
         caption: 2015.03 ~ 2019.02
         link: https://www.cau.ac.kr
