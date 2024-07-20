@@ -71,6 +71,14 @@ content:
     layout: list
     content:
       - layout: left
+        title: Frontend
+        #        sub_title: Qualifications (eg. BA Performing Arts)
+        #        caption: Date Range (eg. 2016 - 2019)
+        #        quote: >
+        #          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          * Streamlit (Python)
+      - layout: left
         title: Backend
 #        sub_title: Qualifications (eg. BA Performing Arts)
 #        caption: Date Range (eg. 2016 - 2019)
@@ -94,8 +102,8 @@ content:
 #          Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           * HTTP, Apache Thrift
-          * Cassandra, MinIO
-          * ZooKeeper, Kafka, Milvus, Pinot, RabbitMQ
+          * Cassandra, MinIO, Milvus
+          * ZooKeeper, Kafka, Pinot
           * Grafana, Kibana
           * Kubernetes, Helm, Rancher
           * Linux Server (CentOS 7, Rocky Linux 8)
