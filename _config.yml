@@ -67,6 +67,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
           * Milvus, ZooKeeper & Kafka, 빌드 머신 담당자
+          * Kubernetes & Helm 기반 서비스 개발 및 운영
   - title: Technology
     layout: list
     content:
@@ -103,8 +104,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * HTTP, Apache Thrift
           * Cassandra, MinIO, Milvus
-          * ZooKeeper, Kafka, Pinot
-          * Grafana, Kibana
+          * ZooKeeper, Kafka
           * Kubernetes, Helm, Rancher
           * Linux Server (CentOS 7, Rocky Linux 8)
       - layout: left
