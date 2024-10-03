@@ -52,6 +52,13 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/icon.jpg
 about_content: | # this will include new lines to allow paragraphs
+  Kubernetes & Helm, Scala, Thrift 등 다양한 기술들을 통해 백엔드 서비스를 개발 및 운영하고 있습니다. <br/>
+
+  테스트를 통해 코드의 안정성을 높이고 지속적인 테스트 커버리지 관리를 중요하게 생각합니다. <br/>
+
+  <mark>팀에 도움이 되기 위해</mark> 빌드 머신, Kafka, Milvus 등 여러 인프라를 구축 및 운영하고 있습니다. <br/>
+
+  새로운 기술 도입, 성능 튜닝 등 다양한 방법으로 여러 문제들을 해결하는 것을 좋아합니다.
 
 content:
   - title: Experience
@@ -66,8 +73,9 @@ content:
           Artificial Intelligence Team
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
+            * **일 500 만건** 행위 데이터 수집 및 악성 진단
           * Milvus, ZooKeeper & Kafka, 빌드 머신 담당자
-          * Kubernetes & Helm 기반 서비스 개발 및 운영
+          * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
   - title: Technology
     layout: list
     content:
@@ -93,8 +101,6 @@ content:
           * Scala
             * Finagle
             * SBT
-          * Python
-            * Celery, Flower
       - layout: left
         title: DevOps
 #        sub_title: Qualifications (eg. BA Performing Arts)
