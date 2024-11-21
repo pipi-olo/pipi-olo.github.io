@@ -74,8 +74,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
             * **일 500 만건** 행위 데이터 수집 및 악성 진단
-          * Milvus, ZooKeeper & Kafka, 빌드 머신 담당자
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
+          * Milvus, Kafka, 빌드 머신 담당자
   - title: Technology
     layout: list
     content:
@@ -146,15 +146,23 @@ content:
     layout: list
     content:
       - layout: left
+        title: LLM Application with RAG
+        caption: 2024.10 ~ 2024.10
+        quote: >
+          Vector Database Milvus Utilization
+        description: |
+          * LLM 진단 체계에서 Vector Database 활용 방안 탐색
+          * LangChain 을 통한 RAG Application 개발
+      - layout: left
         title: inflearn-sprig
 #        sub_title: Server Developer
         caption: 2022.04 ~ 2022.10
-#        link:
+        link: [김영한님의 강의](https://www.inflearn.com/users/74366/@yh)
         quote: >
-          Java Spring Web Backend
+          Java Spring Backend
         description: | # this will include new lines to allow paragraphs
+          * Spring Boot, MVC 등 Spring 기본 개념
           * Java JPA & Spring Data JPA, Querydsl 교육
-          * Spring Boot, Spring MVC 등 Spring 교육
       - layout: left
         title: 중앙대학교 컴퓨터공학부
 #        sub_title:
