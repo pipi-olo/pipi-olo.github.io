@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   테스트를 통해 코드의 안정성을 높이고 지속적인 테스트 커버리지 관리를 중요하게 생각합니다. <br/>
 
-  <mark>팀에 도움이 되기 위해</mark> 빌드 머신, Kafka, Milvus 등 여러 인프라를 구축 및 운영하고 있습니다. <br/>
+  Milvus, Kafka, 빌드 머신 (RockyLinux 8) 등 여러 인프라를 구축 및 운영하고 있습니다. <br/>
 
   새로운 기술 도입, 성능 튜닝 등 다양한 방법으로 여러 문제들을 해결하는 것을 좋아합니다.
 
@@ -157,7 +157,7 @@ content:
         title: inflearn-sprig
 #        sub_title: Server Developer
         caption: 2022.04 ~ 2022.10
-        link: [김영한님의 강의](https://www.inflearn.com/users/74366/@yh)
+        link: https://www.inflearn.com/users/74366/@yh
         quote: >
           Java Spring Backend
         description: | # this will include new lines to allow paragraphs
