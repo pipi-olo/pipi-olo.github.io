@@ -56,7 +56,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   테스트를 통해 코드의 안정성을 높이고 지속적인 테스트 커버리지 관리를 중요하게 생각합니다. <br/>
 
-  Milvus, Kafka, 빌드 머신 (RockyLinux 8) 등 여러 인프라를 구축 및 운영하고 있습니다. <br/>
+  Milvus, Kafka, Airflow, 빌드 머신 (RockyLinux 8) 등 여러 인프라를 구축 및 운영하고 있습니다. <br/>
 
   새로운 기술 도입, 성능 튜닝 등 다양한 방법으로 여러 문제들을 해결하는 것을 좋아합니다.
 
@@ -74,8 +74,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
             * **일 500 만건** 행위 데이터 수집 및 악성 진단
+          * Milvus, Kafka, Airflow, 빌드 머신 운영
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
-          * Milvus, Kafka, 빌드 머신 담당자
   - title: Technology
     layout: list
     content:
@@ -99,7 +99,7 @@ content:
             * JPA / Hibernate, Querydsl
             * Gradle
           * Scala
-            * Finagle
+            * Twitter Finatra, Twitter Server, Twitter Finagle
             * SBT
       - layout: left
         title: DevOps
@@ -113,6 +113,7 @@ content:
           * ZooKeeper, Kafka
           * Kubernetes, Helm, Rancher
           * Linux Server (CentOS 7, Rocky Linux 8)
+          * Git, Jira, Argo CD
       - layout: left
         title: Data Engineering
 #        sub_title: Qualifications (eg. BA Performing Arts)
