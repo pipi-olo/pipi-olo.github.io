@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: 문규환
 title: Server Developer
-email: pipiolo1024@gmail.com
+# email: pipiolo1024@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -34,10 +34,10 @@ linkedin_username: 문규환
 #googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Blog
-  icon: fas fa-bookmark
-  url: https://pipi-olo.github.io/blog
+# additional_links:
+# - title: Blog
+#  icon: fas fa-bookmark
+#  url: https://pipi-olo.github.io/blog
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url : Link url (eg. https://google.com)
@@ -74,7 +74,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
             * **일 500 만건** 행위 데이터 수집 및 악성 진단
-          * Milvus, Kafka, Airflow, 빌드 머신 운영
+          * Milvus, Kafka, Airflow, 빌드 머신 등 인프라 구축 및 운영
+            * **초당 200건** 유사 벡터 조회 체계 구축
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
   - title: Technology
     layout: list
@@ -113,7 +114,7 @@ content:
           * ZooKeeper, Kafka
           * Kubernetes, Helm, Rancher
           * Linux Server (CentOS 7, Rocky Linux 8)
-          * Git, Jira, Argo CD
+          * Git, Jira
       - layout: left
         title: Data Engineering
 #        sub_title: Qualifications (eg. BA Performing Arts)
