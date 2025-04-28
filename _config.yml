@@ -74,9 +74,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           * 행위 데이터를 통한 악성 진단 ML 모델 관련 서비스 개발 및 운영
             * **일 500 만건** 행위 데이터 수집 및 악성 진단
-          * Milvus 인프라 구축 및 활용
-            * Milvus 를 활용한 LLM 진단 체계 캐시 구성 (**초당 200건 대응**)
+          * 지식 검색 서비스 개발 및 운영
             * Milvus 를 활용한 지식 도메인 RAG 구축
+          * Milvus, Kafka 등 인프라 구축 및 활용
+            * Milvus 를 활용한 LLM 진단 체계 캐시 구성 (**QPS 200 이상 및 P99 100ms 이하**)
           * Docker & Kubernetes & Helm 기반 서비스 개발 및 운영
   - title: Technology
     layout: list
