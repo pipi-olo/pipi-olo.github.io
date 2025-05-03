@@ -113,7 +113,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           * HTTP, Apache Thrift
           * Cassandra, MinIO, Milvus
-          * ZooKeeper, Kafka
+          * ZooKeeper, Kafka, Spark
           * Kubernetes, Helm, Rancher
           * Linux Server (CentOS 7, Rocky Linux 8)
           * Git, Jira
